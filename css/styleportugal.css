@@ -1,0 +1,87 @@
+header,
+body,
+footer {
+  background-color: bisque;
+}
+
+.homepage {
+  display: flex;
+  gap: 1em;
+}
+
+#homepagepng {
+  width: 7%;
+}
+
+#homepagetxt {
+  position: absolute;
+  top: -2%;
+  left: 3%;
+}
+
+#homepagetxt:hover {
+  color: deeppink;
+}
+
+#adnotation {
+  font-size: 16pt;
+  font-style: italic;
+}
+
+.sintrapic {
+  display: none;
+}
+
+#headcity:hover + .sintrapic {
+  display: block;
+}
+
+.penapic {
+  display: none;
+}
+
+#headcastle:hover + .penapic {
+  display: block;
+}
+
+.quintapics {
+  display: none;
+}
+
+#headquinta:hover + .quintapics {
+  display: block;
+}
+
+.maurpic {
+  display: none;
+}
+
+#maurcastle:hover + .maurpic {
+  display: block;
+}
+
+.clockcont {
+  text-wrap: nowrap;
+  height: auto;
+  text-shadow: black;
+}
+
+.portugaltimedesc {
+  position: absolute;
+  font-size: 24pt;
+}
+
+#clockportugal {
+  position: absolute;
+  font-size: 24pt;
+  left: 14.5%;
+  bottom: 2.61%;
+}
+
+h2 {
+  font-size: 24pt;
+}
+
+p {
+  font-size: 17pt;
+}
